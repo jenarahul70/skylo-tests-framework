@@ -4,7 +4,6 @@ from pathlib import Path
 
 class Msg3Library:
 
-    # Robot finds any public method as a keyword
     def calculate_msg3_success_rate(self, logfile: str) -> float:
         """
         Returns the overall MSG3 success-rate (0-100) found in *logfile*.
