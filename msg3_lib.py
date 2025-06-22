@@ -1,4 +1,4 @@
-# msg3_lib.py  (place it at project root or in a src/ folder)
+# msg3_lib.py
 import re
 from pathlib import Path
 
