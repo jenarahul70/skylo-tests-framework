@@ -1,0 +1,12 @@
+# Python artifacts
+__pycache__/
+*.pyc
+
+# Virtual environment (if you ever use one locally)
+.venv/
+
+# Robot Framework output
+output/
+
+# Docker
+*.tar

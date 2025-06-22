@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3 (Python 3.9.6 on darwin)" generated="2025-06-15T19:58:36.239202" rpa="false" schemaversion="5">
+<suite id="s1" name="Demo" source="/Users/rahuljena/Documents/SkyloAssignment/tests/demo.robot">
+<test id="s1-t1" name="Demo" line="5">
+<kw name="Msg3.Calculate Msg3 Success Rate">
+<msg time="2025-06-15T19:58:36.257277" level="FAIL">No keyword with name 'Msg3.Calculate Msg3 Success Rate' found.</msg>
+<var>${r}</var>
+<arg>dummy.txt</arg>
+<status status="FAIL" start="2025-06-15T19:58:36.257243" elapsed="0.000071">No keyword with name 'Msg3.Calculate Msg3 Success Rate' found.</status>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<arg>${r}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" start="2025-06-15T19:58:36.257430" elapsed="0.000018"/>
+</kw>
+<status status="FAIL" start="2025-06-15T19:58:36.256179" elapsed="0.001372">No keyword with name 'Msg3.Calculate Msg3 Success Rate' found.</status>
+</test>
+<status status="FAIL" start="2025-06-15T19:58:36.240556" elapsed="0.017219"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Demo" id="s1" pass="0" fail="1" skip="0">Demo</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-06-15T19:58:36.255824" level="WARN">Imported library '/Users/rahuljena/Documents/SkyloAssignment/msg3_lib.py' contains no keywords.</msg>
+</errors>
+</robot>
